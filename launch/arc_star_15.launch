@@ -18,7 +18,7 @@
 
 
   <!-- corner detector -->
-  <node name="arc_star_ros" pkg="arc_star_ros" type="arc_star_ros"  output="screen">
+  <node name="arc_star_ros_15" pkg="arc_star_ros" type="arc_star_ros_15"  output="screen">
     <remap from="events" to="/dvs/events" />
     <remap from="corners" to="/dvs/corners" />
   </node>

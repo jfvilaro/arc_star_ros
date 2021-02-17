@@ -22,5 +22,11 @@ include_directories(
 )
 
 add_executable(arc_star_ros src/arc_star_ros.cc arc_star/src/arc_star_detector.cc)
+add_executable(arc_star_ros_15 src/arc_star_ros_15.cc arc_star/src/arc_star_detector15.cc)
+
 target_link_libraries(arc_star_ros ${catkin_LIBRARIES})
+target_link_libraries(arc_star_ros_15 ${catkin_LIBRARIES})
+
+
+
 
